@@ -1,0 +1,20 @@
+.chart-board{
+    width: 200px;
+    height: 200px;
+}
+
+.card-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.card-data h2{
+    font-size: 2rem;
+}
+
+.card-data div{
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,69 @@
+.account-form {
+       background-color: var(--light-grey-color);
+       padding:  7rem 9rem;
+       text-align: left;
+}
+.account-form h1 {
+       font-family: 'Roboto', sans-serif;
+       font-weight: bold;
+       font-size: 3.6rem;
+       letter-spacing: 0.01em;
+       color: var(--dark-grey-color);
+       margin-bottom: 2rem;
+}
+.formwrap{
+       margin-bottom: 4.5rem;
+}
+.formwrap button {
+float: right;
+}
+
+.formwrap-content{
+       display: flex;
+       justify-content: space-between;
+}
+.formwrap-content .formwrap-right{
+       margin-right: 1rem;
+}
+.formwrap-content .formwrap-leftt{
+       margin-left: 1rem;
+}
+.formwrap-content label {
+       display: block;
+       color: var(--dark-grey-color);
+       letter-spacing: 0.01em;
+       font-size: 1.6rem;
+       margin-bottom: 1.5rem
+}
+.formwrap-content input,
+.formwrap-content select{
+       display: block;
+       background: rgba(34, 36, 40, 0.05);
+       border: 1px solid rgba(34, 36, 40, 0.1);
+       width: 55.8rem;
+       height: 6rem;
+       padding: 1.5rem;
+       border-radius: .4rem;
+       margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width : 960px){
+       .account-form {
+              background-color: var(--light-grey-color);
+              padding:  4rem ;
+       }
+       .formwrap-content{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+       }
+
+       .formwrap-content input,
+       .formwrap-content select{
+              width: 40rem;
+              height: 5rem;
+              padding: 1.5rem;
+              border-radius: .4rem;
+              margin-bottom: 2rem;
+       }
+}

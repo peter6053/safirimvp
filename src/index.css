@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+:root {
+  --primary-color: #0692C4;
+  --dark-grey-color:#222428;
+  --light-grey-color:#E5E5E5;
+  --white-color: #ffffff;
+  --sign-up-color: #E90C13;
+
+}
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body, html {
+font-size: 62.5%;
+ font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+.py-small{padding: 3rem  0 ;}
+.py-medium{padding: 6rem  0 ;}
+.py-large{padding: 9rem  0 ;}
+
+.px-small{padding: 0 3rem;}
+.px-medium{padding: 0 6rem ;}
+.px-large{padding: 0  9rem;}
+
+.p-small{padding: 3rem   ;}
+.p-medium{padding: 6rem ;}
+.p-large{padding: 9rem;}
+

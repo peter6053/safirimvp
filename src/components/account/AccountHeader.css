@@ -1,0 +1,48 @@
+.account-header {
+       background: url('../../assets/rockbg.svg') no-repeat center center /cover;
+       height: 60vh;
+       color: #fff; 
+       font-family: 'Roboto', sans-serif;
+       text-align: left;
+}
+
+.account-header__content {
+       background-color: rgba(0, 0, 0, .4);
+       height: inherit;
+       padding: 0 9rem;
+}
+
+.account-header__content--text{
+       padding-top: 17rem;
+}
+.account-header__content--text h1{
+       font-family: 'Roboto', sans-serif;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 4.8rem;
+       letter-spacing: 0.01em;      
+       color: #FAFAFA;
+       margin-bottom:2.5rem ;
+}
+.account-header__content--text p{
+       color: #FAFAFA;
+       font-size: 1.6rem;
+       letter-spacing: 0.02em;
+       line-height: 1.75;
+       width: 50%;
+}
+
+@media screen and (max-width : 960px){
+
+       .account-header {
+              height: 70vh;
+              text-align: left;
+       }
+
+       .account-header__content{
+              padding: 0 4rem;
+       }
+       .account-header__content--text p{
+              width: 100%;
+       }
+}

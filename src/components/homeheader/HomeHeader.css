@@ -1,0 +1,51 @@
+.header {
+       background: url('../../assets/hut.svg') no-repeat center center /cover;
+       height: 100vh;
+       color: #fff; 
+       font-family: 'Roboto', sans-serif;
+}
+
+.header-content {
+       background-color: rgba(0, 0, 0, .4);
+       height: inherit;
+       padding: 0 9rem;
+    
+}
+
+.header-text{
+       padding-top: 17rem;
+}
+.header-text h1 {
+font-weight: bold;
+font-size: 4.8rem;
+width: 40%;
+text-align: justify;
+margin-bottom: 2rem;
+}
+.header-text p {
+       width: 40%;
+       font-size: 1.6rem;
+       text-align: justify;
+       line-height: 1.15;
+}
+
+@media screen and (max-width: 960px){
+       .header-content {
+              text-align: center;
+              padding: 0 4rem;
+       }
+
+       .header-text h1 {
+              font-weight: bold;
+              font-size: 4.8rem;
+              width: 100%;
+              text-align: justify;
+              margin-bottom: 4rem;
+              }
+              .header-text p {
+                     width: 100%;
+                     font-size: 1.8rem;
+                     text-align: justify;
+                     line-height: 1.15;
+              }
+}

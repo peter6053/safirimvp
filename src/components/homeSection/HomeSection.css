@@ -1,0 +1,149 @@
+.home-section{
+       background-color: var(--light-grey-color);
+       padding: 9rem 9rem 5rem 9rem;
+}
+
+.home-section__container{
+       display: flex;
+       flex-direction: column;
+}
+.home-section__embark {
+       display: flex;
+       justify-content: space-around;
+}
+.home-section__embark--img{
+padding-right: 2rem;
+
+}
+.home-section__embark--text{
+padding: 5rem 0 5rem 2rem;
+text-align: left;
+}
+.home-section__embark--text h2 {
+       font-size: 3.6rem;
+       font-weight: bold;
+       margin-bottom: 2rem;
+}
+.home-section__embark--text p {
+       font-size: 1.8rem;
+       color: var(--dark-grey-color) ;
+       line-height: 1.75;
+       margin-bottom: 2rem;
+}
+
+.home-section__available{
+       padding: 5rem 0 3rem 0;
+}
+.home-section__available--text{
+       display: flex;
+       justify-content: space-between;
+       padding: 3rem 0;
+}
+.home-section__available--text h1{
+       font-family: Roboto;
+       font-weight: bold;
+       font-size: 3.6rem;
+       letter-spacing: 0.03em;
+       color:  var(--dark-grey-color)
+}
+.home-section__available--text a {
+       font-family: Roboto;
+       font-weight: 500;
+       font-size: 2.4rem;
+       padding: 1rem 2rem;
+       letter-spacing: 0.01em;
+       color: #222428;      
+       opacity: 0.75;
+       text-decoration: none;
+       border-bottom: 1px solid var(--primary-color);
+       transition: all .4s ease-in-out;
+}
+.home-section__available--text a:hover{
+       background-color: var(--primary-color);
+       color: var(--light-grey-color);
+}
+.home-section__tour{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.home-section__destination{
+       margin: 2.7rem 1rem;
+}
+.home-section__destination--rate{
+       display: flex;
+       justify-content: space-between;
+       padding: 1rem 2rem;
+}
+
+.home-section__destination--rate p:first-child{
+       font-family: Roboto;
+       font-weight: bold;
+       font-size: 1.8rem;
+       letter-spacing: 0.01em;
+       color: var(--dark-grey-color);
+}
+.home-section__destination--rate p:last-child{
+       font-family: Roboto;
+       font-weight: bold;
+       font-size: 1.8rem;
+       letter-spacing: 0.01em;
+       color: #E90C13;
+}
+.home-section__destination--flight span{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       padding: .75rem 2rem;
+       margin-bottom: 1rem;
+}
+.home-section__destination--flight span img{
+       padding-right: 1rem;
+}
+.home-section__destination--flight span p{
+
+       font-family: Roboto;
+       font-size: 1.6rem;
+       letter-spacing: 0.01em;
+       color: var(--dark-grey-color);
+       opacity: 0.5;
+}
+.home-section__destination--flight button {
+       float: left;
+       cursor: pointer;
+       transition: all .4s ease-in-out;
+}
+
+
+@media screen and (max-width: 960px){
+       .home-section{
+              padding:0;
+              overflow: hidden;
+       }
+       .home-section__embark {
+              display: flex;
+              flex-direction: column;
+       }
+
+       .home-section__embark--img{
+              padding:0;
+              width: inherit;
+        }
+        .home-section__embark--text{
+              padding: 5rem 2rem 5rem 2rem;
+              text-align: left;
+              }
+       .home-section__available--text{
+              display: flex;
+              justify-content: center;
+       }
+       .home-section__available--text a {display: none;}
+
+       .home-section__tour{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+       }
+       .home-section__destination{
+              margin: 2.7rem auto;
+       }
+       
+}
